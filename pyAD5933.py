@@ -300,7 +300,7 @@ if __name__ == '__main__':
     print("config sweep done")
     sensor.start_sweep()
     print("sweep done")
-    gainFactor = sensor.cal_gain_factor(user_cal_impedance)
+    gainFactor = sensor.cal_gain_factor(impedance)
     print("gainFactor:", gainFactor)
     impedance = sensor.cal_impedance()
     print("imp |z|:", impedance)
