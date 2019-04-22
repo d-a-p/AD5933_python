@@ -2,6 +2,7 @@
 python library to calibate and measure the impedance AD5933
 
 #############################################################
+
 input from user:[default value]
 impedance = 156.
 gain = 1
